@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+  <!-- P letter in orange -->
+  <path d="M30,20 Q50,10 55,30 Q55,50 35,50 L35,70" stroke="#F59E0B" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <circle cx="35" cy="30" r="2" fill="#F59E0B"/>
+  
+  <!-- M letter in green -->
+  <path d="M80,70 L80,30 Q85,20 90,30 L95,50 L100,30 Q105,20 110,30 L110,70" stroke="#10B981" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Musical notes decoration -->
+  <circle cx="60" cy="45" r="3" fill="#3B82F6"/>
+  <rect x="62" y="25" width="2" height="20" fill="#3B82F6"/>
+  
+  <circle cx="120" cy="55" r="3" fill="#EC4899"/>
+  <rect x="122" y="35" width="2" height="20" fill="#EC4899"/>
+  
+  <!-- Musical wave -->
+  <path d="M25,80 Q70,75 115,80" stroke="#8B5CF6" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
