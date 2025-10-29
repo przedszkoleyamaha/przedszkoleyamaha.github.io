@@ -1,0 +1,36 @@
+name: AutoDownloadAndDeploy
+
+on:
+  push:
+    branches: [master]
+  schedule:
+    - cron: "0 * * * *" 
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Download files using wget
+        run: |
+          rm -rf dist || true
+          mkdir dist
+          wget -r -N -P dist https://3000-i42ypd0xv8kp8nsnm9j1i-2b54fc91.sandbox.novita.ai/
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto update via wget" || echo "Brak zmian do commitowania"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          enable_jekyll: false
