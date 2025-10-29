@@ -1,10 +1,11 @@
-name: AutoDownloadAndDeploy
+name: AutoDownloadAndDeployUpdated
 
 on:
+  workflow_dispatch
   push:
-    branches: [main]
+    branches: [master]
   schedule:
-    - cron: "0 * * * *" 
+    - cron: "0 * * * *"
 
 jobs:
   deploy:
@@ -19,18 +20,20 @@ jobs:
         run: |
           rm -rf dist || true
           mkdir dist
-          wget -r -N -P dist https://3000-i42ypd0xv8kp8nsnm9j1i-2b54fc91.sandbox.novita.ai/
+          wget -r -N -P dist http://3000-ib6q0a4ir7rfow4kfx474-6532622b.e2b.dev/
 
       - name: Commit changes
         run: |
+          cd dist/*
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+          git init
           git add .
-          git commit -m "Auto update via wget" || echo "Brak zmian do commitowania"
+          git commit -m "Auto update via wget" || echo "No changes. Continuing"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: dist/*/
           enable_jekyll: false
