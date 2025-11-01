@@ -24,6 +24,11 @@ jobs:
           cp dist/*/* data/*/ -r 
           cd data/*/
           pwd
+          mv kontakt kontakt.html
+          mv o-nas o-nas.html
+          mv kuchnia kuchnia.html
+          mv zajecia zajecia.html
+          mv galeria galeria.html
           ls
           git add .
           git config user.name "github-actions"
