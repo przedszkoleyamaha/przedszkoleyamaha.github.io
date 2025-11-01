@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Kontakt - Niepubliczne Przedszkole Muzyczne w Tychach</title>
+        <title>Kuchnia - Niepubliczne Przedszkole Muzyczne w Tychach</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="icon" type="image/svg+xml" href="/static/pm-logo.svg">
         <link rel="apple-touch-icon" href="/static/pm-logo.svg">
@@ -279,9 +279,9 @@
                         <a href="/" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Strona Główna</a>
                         <a href="/o-nas" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">O Nas</a>
                         <a href="/zajecia" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Zajęcia</a>
-                        <a href="/kuchnia" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Kuchnia</a>
+                        <a href="/kuchnia" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base text-purple-600 border-b-2 border-purple-400">Kuchnia</a>
                         <a href="/galeria" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Galeria</a>
-                        <a href="/kontakt" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base text-purple-600 border-b-2 border-purple-400">Kontakt</a>
+                        <a href="/kontakt" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Kontakt</a>
                     </div>
                     
                     <!-- Social Media Buttons -->
@@ -340,171 +340,162 @@
         
     <div class="pt-24 min-h-screen">
         <!-- Hero -->
-        <section class="py-16 bg-gradient-to-r from-blue-100 to-cyan-100">
+        <section class="py-16 bg-gradient-to-r from-green-100 to-emerald-100">
             <div class="container mx-auto px-4 text-center">
-                <h1 class="font-fredoka text-4xl md:text-5xl font-bold mb-6 text-blue-700">Kontakt</h1>
+                <h1 class="font-fredoka text-4xl md:text-5xl font-bold mb-6 text-green-700">Własna Kuchnia</h1>
                 <p class="text-xl text-gray-700 max-w-3xl mx-auto">
-                    Jesteśmy tu dla Ciebie i Twojego dziecka
+                    Zdrowe, świeże posiłki przygotowywane z pasją każdego dnia
                 </p>
             </div>
         </section>
 
-        <!-- Contact Content -->
-        <section class="section-padding py-16 bg-gradient-to-br from-green-50 via-blue-50 to-orange-50">
+        <!-- Main Content -->
+        <section class="section-padding py-16 bg-gradient-to-br from-soft-cream via-white to-soft-peach">
             <div class="container mx-auto px-4">
-                <!-- Interested Section -->
+                <!-- Introduction -->
                 <div class="text-center mb-16">
-                    <h2 class="font-fredoka text-4xl font-bold text-purple-600 mb-4">
-                        Zainteresowany/a?
+                    <h2 class="font-fredoka text-3xl font-bold text-purple-600 mb-8">
+                        <i class="fas fa-chef-hat text-music-orange mr-3"></i>
+                        Posiadamy Własną Kuchnię
                     </h2>
-                    <p class="text-2xl text-purple-700 font-bold">
-                        Skontaktuj się z nami!
+                    <p class="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                        Wszystkie posiłki przygotowywane są na miejscu przez kucharki, które doskonale znają 
+                        potrzeby żywieniowe najmłodszych dzieci, ale też biorą pod uwagę ich gusta smakowe.
                     </p>
                 </div>
 
-                <!-- Contact Buttons Grid -->
-                <div class="max-w-4xl mx-auto mb-16">
-                    <div class="grid md:grid-cols-2 gap-6">
-                        <!-- Phone Button -->
-                        <a href="tel:728913071" class="group bg-gradient-to-br from-green-300 to-emerald-400 text-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block border-2 border-green-400/30">
-                            <div class="text-center">
-                                <div class="w-20 h-20 bg-white text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg">
-                                    <i class="fas fa-phone text-3xl"></i>
-                                </div>
-                                <h3 class="font-fredoka text-2xl font-bold mb-2">Zadzwoń</h3>
-                                <p class="text-lg opacity-90">728 913 071</p>
-                                <p class="text-sm mt-2 opacity-75">Pon-Pt: 7:00-17:00</p>
+                <!-- Features Grid -->
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+                    <!-- Swedish Table Section -->
+                    <div class="bg-gradient-to-br from-soft-mint to-pastel-green rounded-3xl p-10 shadow-xl">
+                        <div class="flex items-center mb-6">
+                            <div class="w-16 h-16 bg-gradient-to-r from-green-400 to-teal-400 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-concierge-bell text-white text-2xl"></i>
                             </div>
-                        </a>
+                            <h3 class="font-fredoka text-2xl font-bold text-purple-700">Szwedzki Stół</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            Śniadania serwujemy w formie szwedzkiego stołu. To absolutnie wyjątkowe rozwiązanie, 
+                            dzięki któremu nawet niejadki chętnie dają się przekonać do jedzenia śniadań.
+                        </p>
+                        <div class="bg-white rounded-2xl p-6">
+                            <h4 class="font-semibold text-gray-800 mb-3">Korzyści szwedzkiego stołu:</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start space-x-2">
+                                    <i class="fas fa-check-circle text-green-500 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700">Atrakcja dla dzieci - zachęca do jedzenia</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <i class="fas fa-check-circle text-green-500 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700">Budowanie umiejętności podejmowania decyzji</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <i class="fas fa-check-circle text-green-500 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700">Świadomość własnych preferencji żywieniowych</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-                        <!-- Email Button -->
-                        <a href="mailto:przedszkoleyamaha@gmail.com" class="group bg-gradient-to-br from-orange-300 to-pink-400 text-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block border-2 border-orange-400/30">
-                            <div class="text-center">
-                                <div class="w-20 h-20 bg-white text-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg">
-                                    <i class="fas fa-envelope text-3xl"></i>
-                                </div>
-                                <h3 class="font-fredoka text-2xl font-bold mb-2">E-mail</h3>
-                                <p class="text-lg opacity-90 break-all">przedszkoleyamaha@gmail.com</p>
-                                <p class="text-sm mt-2 opacity-75">Odpowiadamy w 24h</p>
+                    <!-- Healthy Ingredients Section -->
+                    <div class="bg-gradient-to-br from-orange-50 to-amber-50 rounded-3xl p-10 shadow-xl">
+                        <div class="flex items-center mb-6">
+                            <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-carrot text-white text-2xl"></i>
                             </div>
-                        </a>
-
-                        <!-- Facebook Button -->
-                        <a href="https://www.facebook.com/profile.php?id=100027678237071" target="_blank" rel="noopener noreferrer" class="group bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
-                            <div class="text-center">
-                                <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                                    <i class="fab fa-facebook text-3xl"></i>
-                                </div>
-                                <h3 class="font-fredoka text-2xl font-bold mb-2">Facebook</h3>
-                                <p class="text-lg opacity-90">Niepubliczne Przedszkole Muzyczne Tychy</p>
-                                <p class="text-sm mt-2 opacity-75">Śledź nasze aktualności</p>
-                            </div>
-                        </a>
-
-                        <!-- WhatsApp Button -->
-                        <a href="https://wa.me/48728913071" target="_blank" rel="noopener noreferrer" class="group bg-gradient-to-br from-green-600 to-green-800 text-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
-                            <div class="text-center">
-                                <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                                    <i class="fab fa-whatsapp text-3xl"></i>
-                                </div>
-                                <h3 class="font-fredoka text-2xl font-bold mb-2">WhatsApp</h3>
-                                <p class="text-lg opacity-90">728 913 071</p>
-                                <p class="text-sm mt-2 opacity-75">Napisz do nas</p>
-                            </div>
-                        </a>
+                            <h3 class="font-fredoka text-2xl font-bold text-gray-800">Zdrowe Składniki</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            Starannie wybieramy dostawców i dbamy o zdrowe odżywanie. Wszystkie składniki posiłków 
+                            pozyskujemy od zaufanych dostawców, dlatego wiemy, że są one najwyższej jakości.
+                        </p>
+                        <div class="bg-white rounded-2xl p-6">
+                            <h4 class="font-semibold text-gray-800 mb-3">Nasze zasady:</h4>
+                            <ul class="space-y-2">
+                                <li class="flex items-start space-x-2">
+                                    <i class="fas fa-leaf text-green-500 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700">Różnorodne, bogate w składniki odżywcze menu</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <i class="fas fa-times-circle text-red-500 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700">Staramy się unikać nadmiaru cukru</span>
+                                </li>
+                                <li class="flex items-start space-x-2">
+                                    <i class="fas fa-tint text-blue-500 mt-1 flex-shrink-0"></i>
+                                    <span class="text-gray-700">Promujemy picie wody zamiast słodkich napojów</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Location Section -->
-                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-12">
-                    <div class="grid lg:grid-cols-2 gap-12 items-center">
-                        <div>
-                            <h3 class="font-fredoka text-3xl font-bold text-gray-800 mb-8">
-                                <i class="fas fa-map-marked-alt text-purple-700 mr-3"></i>
-                                Gdzie Nas Znajdziesz
+
+
+
+
+                <!-- Allergy Section -->
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-3xl p-12">
+                    <div class="flex flex-col lg:flex-row items-center gap-8">
+                        <div class="lg:w-1/3 text-center lg:text-left">
+                            <div class="w-20 h-20 bg-blue-500 rounded-full flex items-center justify-center mb-4 mx-auto lg:mx-0">
+                                <i class="fas fa-shield-alt text-white text-3xl"></i>
+                            </div>
+                            <h3 class="font-fredoka text-2xl font-bold text-gray-800 mb-2">
+                                Diety Specjalne i Alergie
                             </h3>
-                            
-                            <div class="space-y-6">
-                                <div class="flex items-start space-x-4">
-                                    <div class="w-14 h-14 bg-purple-600 rounded-full flex items-center justify-center flex-shrink-0">
-                                        <i class="fas fa-map-marker-alt text-white text-xl"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-semibold text-gray-800 text-lg mb-2">Adres</h4>
-                                        <p class="text-gray-700">
-                                            ul. Ujejskiego 20<br>
-                                            43-100 Tychy
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4">
-                                    <div class="w-14 h-14 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
-                                        <i class="fas fa-clock text-white text-xl"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-semibold text-gray-800 text-lg mb-2">Godziny Otwarcia</h4>
-                                        <p class="text-gray-700">
-                                            Poniedziałek - Piątek: 7:00 - 17:00<br>
-                                            Sobota - Niedziela: Zamknięte
-                                        </p>
-                                    </div>
-                                </div>
-
-                                <div class="flex items-start space-x-4">
-                                    <div class="w-14 h-14 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0">
-                                        <i class="fas fa-parking text-white text-xl"></i>
-                                    </div>
-                                    <div>
-                                        <h4 class="font-semibold text-gray-800 text-lg mb-2">Parking</h4>
-                                        <p class="text-gray-700">
-                                            Bezpłatny parking dla rodziców<br>
-                                            Wygodny podjazd
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="mt-8">
-                                <a href="https://goo.gl/maps/..." target="_blank" rel="noopener noreferrer" 
-                                   class="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors shadow-lg">
-                                    <i class="fas fa-directions mr-2"></i>
-                                    Pokaż trasę w Google Maps
-                                </a>
-                            </div>
                         </div>
-
-                        <!-- Google Map -->
-                        <div class="bg-white rounded-3xl shadow-xl overflow-hidden h-96">
-                            <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.057691573981!2d18.978889514303674!3d50.103927116307815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716b7f0f4c3f547%3A0x904522a68a6de5db!2sYamaha%20Szko%C5%82a%20Muzyczna!5e0!3m2!1spl!2spl!4v1760719743534!5m2!1spl!2spl" 
-                                width="100%" 
-                                height="100%" 
-                                style="border:0;" 
-                                allowfullscreen="" 
-                                loading="lazy" 
-                                referrerpolicy="no-referrer-when-downgrade">
-                            </iframe>
+                        <div class="lg:w-2/3">
+                            <p class="text-lg text-gray-700 leading-relaxed">
+                                Rodziców, których dzieci mają alergie lub inne szczególne wymagania co do diety, 
+                                prosimy zawsze o kontakt. Dbamy o to, by każde dziecko otrzymywało posiłki, 
+                                które będą dla niego odpowiednie. Jesteśmy elastyczni i dostosowujemy menu 
+                                do indywidualnych potrzeb.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Quick Info Cards -->
-                <div class="grid md:grid-cols-2 gap-6 mt-12 max-w-2xl mx-auto">
-                    <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
-                        <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-user-friends text-white text-2xl"></i>
+                <!-- Daily Meals Timeline -->
+                <div class="mt-16">
+                    <h3 class="font-fredoka text-2xl font-bold text-center text-gray-800 mb-12">
+                        <i class="fas fa-clock text-purple-700 mr-3"></i>
+                        Nasz Dzienny Harmonogram Posiłków
+                    </h3>
+                    <div class="max-w-4xl mx-auto">
+                        <div class="space-y-4">
+                            <div class="flex items-center bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-6">
+                                <div class="w-16 h-16 bg-yellow-500 rounded-full flex items-center justify-center mr-6">
+                                    <i class="fas fa-sun text-white text-2xl"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <h4 class="font-semibold text-gray-800 text-lg">Śniadanie</h4>
+                                    <p class="text-gray-600">Szwedzki stół z różnorodnymi opcjami</p>
+                                </div>
+                                <span class="text-2xl font-bold text-gray-700">9:00</span>
+                            </div>
+                            
+                            <div class="flex items-center bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl p-6">
+                                <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mr-6">
+                                    <i class="fas fa-bowl-food text-white text-2xl"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <h4 class="font-semibold text-gray-800 text-lg">Obiad</h4>
+                                    <p class="text-gray-600">Dwudaniowy obiad z deserem</p>
+                                </div>
+                                <span class="text-2xl font-bold text-gray-700">12:00</span>
+                            </div>
+                            
+                            <div class="flex items-center bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-6">
+                                <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mr-6">
+                                    <i class="fas fa-cookie text-white text-2xl"></i>
+                                </div>
+                                <div class="flex-grow">
+                                    <h4 class="font-semibold text-gray-800 text-lg">Podwieczorek</h4>
+                                    <p class="text-gray-600">Lekkie przekąski i napoje</p>
+                                </div>
+                                <span class="text-2xl font-bold text-gray-700">14:00</span>
+                            </div>
                         </div>
-                        <h4 class="font-fredoka text-lg font-semibold text-gray-800 mb-2">Odwiedź Nas</h4>
-                        <p class="text-gray-600 text-sm">Zapraszamy na wizytę pokazową przedszkola</p>
-                    </div>
-
-                    <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
-                        <div class="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                            <i class="fas fa-calendar-check text-white text-2xl"></i>
-                        </div>
-                        <h4 class="font-fredoka text-lg font-semibold text-gray-800 mb-2">Umów Spotkanie</h4>
-                        <p class="text-gray-600 text-sm">Chętnie odpowiemy na wszystkie pytania</p>
                     </div>
                 </div>
             </div>

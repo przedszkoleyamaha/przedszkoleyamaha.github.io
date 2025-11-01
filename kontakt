@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Galeria - Niepubliczne Przedszkole Muzyczne w Tychach</title>
+        <title>Kontakt - Niepubliczne Przedszkole Muzyczne w Tychach</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="icon" type="image/svg+xml" href="/static/pm-logo.svg">
         <link rel="apple-touch-icon" href="/static/pm-logo.svg">
@@ -280,8 +280,8 @@
                         <a href="/o-nas" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">O Nas</a>
                         <a href="/zajecia" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Zajęcia</a>
                         <a href="/kuchnia" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Kuchnia</a>
-                        <a href="/galeria" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base text-purple-600 border-b-2 border-purple-400">Galeria</a>
-                        <a href="/kontakt" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Kontakt</a>
+                        <a href="/galeria" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Galeria</a>
+                        <a href="/kontakt" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base text-purple-600 border-b-2 border-purple-400">Kontakt</a>
                     </div>
                     
                     <!-- Social Media Buttons -->
@@ -340,80 +340,171 @@
         
     <div class="pt-24 min-h-screen">
         <!-- Hero -->
-        <section class="py-16 bg-gradient-to-r from-purple-100 to-pink-100">
+        <section class="py-16 bg-gradient-to-r from-blue-100 to-cyan-100">
             <div class="container mx-auto px-4 text-center">
-                <h1 class="font-fredoka text-4xl md:text-5xl font-bold mb-6 text-purple-700">Galeria</h1>
+                <h1 class="font-fredoka text-4xl md:text-5xl font-bold mb-6 text-blue-700">Kontakt</h1>
                 <p class="text-xl text-gray-700 max-w-3xl mx-auto">
-                    Zobacz naszą codzienność pełną radości, muzyki i kreatywności!
+                    Jesteśmy tu dla Ciebie i Twojego dziecka
                 </p>
             </div>
         </section>
 
-        <!-- Facebook Redirect Message -->
-        <section class="py-16 md:py-20 bg-gradient-to-br from-soft-cream via-white to-soft-sky">
+        <!-- Contact Content -->
+        <section class="section-padding py-16 bg-gradient-to-br from-green-50 via-blue-50 to-orange-50">
             <div class="container mx-auto px-4">
-                <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl p-8 md:p-12">
-                    <div class="text-center">
-                        <div class="text-7xl mb-6">📱</div>
-                        <h2 class="font-fredoka text-3xl md:text-4xl font-bold text-purple-600 mb-6">
-                            Galeria Zdjęć na Facebooku
-                        </h2>
-                        <p class="text-lg md:text-xl text-gray-700 mb-8">
-                            Wszystkie nasze zdjęcia i filmy znajdziesz na naszym profilu na Facebooku. 
-                            Śledź naszą codzienność, zobacz jak bawimy się i uczymy!
-                        </p>
-                        
-                        <div class="bg-gradient-to-r from-soft-sky to-pastel-blue rounded-2xl p-6 mb-8">
-                            <div class="flex items-center justify-center space-x-4 mb-4">
-                                <i class="fab fa-facebook text-4xl text-blue-600"></i>
-                                <h3 class="font-semibold text-xl text-purple-700">Niepubliczne Przedszkole Muzyczne Tychy</h3>
+                <!-- Interested Section -->
+                <div class="text-center mb-16">
+                    <h2 class="font-fredoka text-4xl font-bold text-purple-600 mb-4">
+                        Zainteresowany/a?
+                    </h2>
+                    <p class="text-2xl text-purple-700 font-bold">
+                        Skontaktuj się z nami!
+                    </p>
+                </div>
+
+                <!-- Contact Buttons Grid -->
+                <div class="max-w-4xl mx-auto mb-16">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <!-- Phone Button -->
+                        <a href="tel:728913071" class="group bg-gradient-to-br from-green-300 to-emerald-400 text-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block border-2 border-green-400/30">
+                            <div class="text-center">
+                                <div class="w-20 h-20 bg-white text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg">
+                                    <i class="fas fa-phone text-3xl"></i>
+                                </div>
+                                <h3 class="font-fredoka text-2xl font-bold mb-2">Zadzwoń</h3>
+                                <p class="text-lg opacity-90">728 913 071</p>
+                                <p class="text-sm mt-2 opacity-75">Pon-Pt: 7:00-17:00</p>
                             </div>
-                            <p class="text-gray-600">
-                                Regularnie dodajemy nowe zdjęcia z zajęć, wydarzeń i występów naszych podopiecznych.
-                            </p>
-                        </div>
-                        
-                        <div class="space-y-4">
-                            <a href="https://www.facebook.com/profile.php?id=100027678237071&sk=photos" 
-                               target="_blank" 
-                               rel="noopener noreferrer"
-                               class="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl text-lg">
-                                <i class="fab fa-facebook mr-3 text-xl"></i>
-                                Przejdź do Galerii na Facebooku
-                            </a>
+                        </a>
+
+                        <!-- Email Button -->
+                        <a href="mailto:przedszkoleyamaha@gmail.com" class="group bg-gradient-to-br from-orange-300 to-pink-400 text-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block border-2 border-orange-400/30">
+                            <div class="text-center">
+                                <div class="w-20 h-20 bg-white text-orange-600 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform shadow-lg">
+                                    <i class="fas fa-envelope text-3xl"></i>
+                                </div>
+                                <h3 class="font-fredoka text-2xl font-bold mb-2">E-mail</h3>
+                                <p class="text-lg opacity-90 break-all">przedszkoleyamaha@gmail.com</p>
+                                <p class="text-sm mt-2 opacity-75">Odpowiadamy w 24h</p>
+                            </div>
+                        </a>
+
+                        <!-- Facebook Button -->
+                        <a href="https://www.facebook.com/profile.php?id=100027678237071" target="_blank" rel="noopener noreferrer" class="group bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                            <div class="text-center">
+                                <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                                    <i class="fab fa-facebook text-3xl"></i>
+                                </div>
+                                <h3 class="font-fredoka text-2xl font-bold mb-2">Facebook</h3>
+                                <p class="text-lg opacity-90">Niepubliczne Przedszkole Muzyczne Tychy</p>
+                                <p class="text-sm mt-2 opacity-75">Śledź nasze aktualności</p>
+                            </div>
+                        </a>
+
+                        <!-- WhatsApp Button -->
+                        <a href="https://wa.me/48728913071" target="_blank" rel="noopener noreferrer" class="group bg-gradient-to-br from-green-600 to-green-800 text-white rounded-3xl p-8 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 block">
+                            <div class="text-center">
+                                <div class="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
+                                    <i class="fab fa-whatsapp text-3xl"></i>
+                                </div>
+                                <h3 class="font-fredoka text-2xl font-bold mb-2">WhatsApp</h3>
+                                <p class="text-lg opacity-90">728 913 071</p>
+                                <p class="text-sm mt-2 opacity-75">Napisz do nas</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Location Section -->
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-3xl p-12">
+                    <div class="grid lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h3 class="font-fredoka text-3xl font-bold text-gray-800 mb-8">
+                                <i class="fas fa-map-marked-alt text-purple-700 mr-3"></i>
+                                Gdzie Nas Znajdziesz
+                            </h3>
                             
-                            <div class="text-sm text-gray-500 mt-4">
-                                <p>Nie masz konta na Facebooku? Nie martw się!</p>
-                                <p>Możesz przeglądać nasze publiczne zdjęcia bez logowania.</p>
+                            <div class="space-y-6">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-14 h-14 bg-purple-600 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800 text-lg mb-2">Adres</h4>
+                                        <p class="text-gray-700">
+                                            ul. Ujejskiego 20<br>
+                                            43-100 Tychy
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-14 h-14 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-clock text-white text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800 text-lg mb-2">Godziny Otwarcia</h4>
+                                        <p class="text-gray-700">
+                                            Poniedziałek - Piątek: 7:00 - 17:00<br>
+                                            Sobota - Niedziela: Zamknięte
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-14 h-14 bg-orange-600 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-parking text-white text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-800 text-lg mb-2">Parking</h4>
+                                        <p class="text-gray-700">
+                                            Bezpłatny parking dla rodziców<br>
+                                            Wygodny podjazd
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="mt-8">
+                                <a href="https://goo.gl/maps/..." target="_blank" rel="noopener noreferrer" 
+                                   class="inline-flex items-center bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+                                    <i class="fas fa-directions mr-2"></i>
+                                    Pokaż trasę w Google Maps
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Google Map -->
+                        <div class="bg-white rounded-3xl shadow-xl overflow-hidden h-96">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.057691573981!2d18.978889514303674!3d50.103927116307815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716b7f0f4c3f547%3A0x904522a68a6de5db!2sYamaha%20Szko%C5%82a%20Muzyczna!5e0!3m2!1spl!2spl!4v1760719743534!5m2!1spl!2spl" 
+                                width="100%" 
+                                height="100%" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
                         </div>
                     </div>
-                    
-                    <!-- Features of Facebook Gallery -->
-                    <div class="grid md:grid-cols-3 gap-6 mt-12">
-                        <div class="text-center">
-                            <div class="bg-gradient-to-r from-purple-100 to-pink-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <span class="text-3xl">📷</span>
-                            </div>
-                            <h4 class="font-semibold text-gray-800 mb-2">Aktualne Zdjęcia</h4>
-                            <p class="text-gray-600 text-sm">Najnowsze fotografie z życia przedszkola</p>
+                </div>
+
+                <!-- Quick Info Cards -->
+                <div class="grid md:grid-cols-2 gap-6 mt-12 max-w-2xl mx-auto">
+                    <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+                        <div class="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-user-friends text-white text-2xl"></i>
                         </div>
-                        
-                        <div class="text-center">
-                            <div class="bg-gradient-to-r from-blue-100 to-green-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <span class="text-3xl">🎥</span>
-                            </div>
-                            <h4 class="font-semibold text-gray-800 mb-2">Filmy z Wydarzeń</h4>
-                            <p class="text-gray-600 text-sm">Nagrania z występów i uroczystości</p>
+                        <h4 class="font-fredoka text-lg font-semibold text-gray-800 mb-2">Odwiedź Nas</h4>
+                        <p class="text-gray-600 text-sm">Zapraszamy na wizytę pokazową przedszkola</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl shadow-lg p-6 text-center">
+                        <div class="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-calendar-check text-white text-2xl"></i>
                         </div>
-                        
-                        <div class="text-center">
-                            <div class="bg-gradient-to-r from-orange-100 to-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <span class="text-3xl">💬</span>
-                            </div>
-                            <h4 class="font-semibold text-gray-800 mb-2">Komentarze Rodziców</h4>
-                            <p class="text-gray-600 text-sm">Opinie i reakcje naszej społeczności</p>
-                        </div>
+                        <h4 class="font-fredoka text-lg font-semibold text-gray-800 mb-2">Umów Spotkanie</h4>
+                        <p class="text-gray-600 text-sm">Chętnie odpowiemy na wszystkie pytania</p>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>O Nas - Niepubliczne Przedszkole Muzyczne w Tychach</title>
+        <title>Zajęcia - Niepubliczne Przedszkole Muzyczne w Tychach</title>
         <link rel="icon" type="image/x-icon" href="/favicon.ico">
         <link rel="icon" type="image/svg+xml" href="/static/pm-logo.svg">
         <link rel="apple-touch-icon" href="/static/pm-logo.svg">
@@ -277,8 +277,8 @@
                     <!-- Desktop Navigation -->
                     <div class="desktop-nav hidden lg:flex items-center space-x-4 xl:space-x-6">
                         <a href="/" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Strona Główna</a>
-                        <a href="/o-nas" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base text-purple-600 border-b-2 border-purple-400">O Nas</a>
-                        <a href="/zajecia" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Zajęcia</a>
+                        <a href="/o-nas" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">O Nas</a>
+                        <a href="/zajecia" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base text-purple-600 border-b-2 border-purple-400">Zajęcia</a>
                         <a href="/kuchnia" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Kuchnia</a>
                         <a href="/galeria" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Galeria</a>
                         <a href="/kontakt" class="text-gray-700 hover:text-purple-600 font-medium transition-colors text-sm xl:text-base ">Kontakt</a>
@@ -340,134 +340,168 @@
         
     <div class="pt-24 min-h-screen">
         <!-- Hero -->
-        <section class="py-16 bg-gradient-to-r from-blue-100 to-green-100">
+        <section class="py-16 bg-gradient-to-r from-orange-100 to-yellow-100">
             <div class="container mx-auto px-4 text-center">
-                <h1 class="font-fredoka text-4xl md:text-5xl font-bold mb-6 text-blue-700">O Nas</h1>
+                <h1 class="font-fredoka text-4xl md:text-5xl font-bold mb-6 text-orange-700">Nasze Zajęcia</h1>
                 <p class="text-xl text-gray-700 max-w-3xl mx-auto">
-                    Uczymy grać na pianinie – najwspanialszy prezent dla dziecka
+                    Przede wszystkim muzyka – wspieramy rozwój dzieci poprzez sztukę i aktywność ruchową
                 </p>
             </div>
         </section>
 
-        <!-- Main Content with Musical Elements -->
-        <section class="section-padding py-16 bg-gradient-to-br from-blue-50 via-orange-50 to-green-50">
+        <!-- Main Content -->
+        <section class="section-padding py-16 bg-gradient-to-br from-soft-cream via-white to-soft-lavender">
             <div class="container mx-auto px-4">
-                <!-- Musical Journey Timeline -->
-                <div class="mb-16">
-                    <h2 class="font-fredoka text-3xl font-bold text-center mb-12 text-gray-800">
-                        <i class="fas fa-music text-purple-700 mr-3"></i>
-                        Nasza Muzyczna Podróż
+                <!-- Introduction -->
+                <div class="max-w-4xl mx-auto text-center mb-16">
+                    <h2 class="font-fredoka text-3xl font-bold text-purple-600 mb-6">
+                        <i class="fas fa-music-note text-music-purple mr-3 animate-pulse"></i>
+                        Muzyka Jest Wszędzie
                     </h2>
-                    
-                    <div class="grid lg:grid-cols-2 gap-12 items-center">
-                        <div class="space-y-6">
-                            <div class="flex items-start space-x-4">
-                                <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center flex-shrink-0">
-                                    <i class="fas fa-brain text-white"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-fredoka text-xl font-semibold text-gray-800 mb-2">Rozwój Inteligencji</h3>
-                                    <p class="text-gray-600 leading-relaxed">
-                                        Muzyka rozwija inteligencję, zdolność myślenia, pamięć, wyobraźnię i umiejętność przyswajania wiedzy. 
-                                        Gdy podrosną będą szybciej uczyć się języków obcych czy matematyki.
-                                    </p>
-                                </div>
-                            </div>
-                            
-                            <div class="flex items-start space-x-4">
-                                <div class="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center flex-shrink-0">
-                                    <i class="fas fa-ear-listen text-white"></i>
-                                </div>
-                                <div>
-                                    <h3 class="font-fredoka text-xl font-semibold text-gray-800 mb-2">Genialny Słuch</h3>
-                                    <p class="text-gray-600 leading-relaxed">
-                                        Jeśli odpowiednio wcześnie pozwolimy dzieciom swobodnie muzykować, zachowamy wrodzony genialny słuch 
-                                        i umiejętność naśladowania dźwięków, dzięki której wszyscy nauczyliśmy się mówić.
-                                    </p>
-                                </div>
-                            </div>
-                            
-                            <div class="flex items-start space-x-4">
-                                <div class="w-12 h-12 bg-music-orange rounded-full flex items-center justify-center flex-shrink-0">
-                                    <span class="text-2xl">🎹</span>
-                                </div>
-                                <div>
-                                    <h3 class="font-fredoka text-xl font-semibold text-gray-800 mb-2">Clavinova CVP 709</h3>
-                                    <p class="text-gray-600 leading-relaxed">
-                                        Jako jedyne przedszkole w Polsce posiadamy świetny instrument Yamaha Clavinova CVP 709. 
-                                        Dzieci mogą muzykować także na innych instrumentach, w tym przede wszystkim keyboardach Yamaha.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="relative">
-                            <div class="bg-gradient-to-br from-purple-100 to-pink-100 rounded-3xl p-8 border-2 border-purple-200/30 shadow-xl">
-                                <div class="grid grid-cols-2 gap-4">
-                                    <div class="bg-white rounded-2xl p-6 text-center shadow-lg">
-                                        <i class="fas fa-child text-4xl text-purple-700 mb-3"></i>
-                                        <h4 class="font-fredoka font-semibold text-gray-800">Idealny Wiek</h4>
-                                        <p class="text-sm text-gray-600 mt-2">Przedszkolaki są w najlepszym wieku do nauki muzyki</p>
-                                    </div>
-                                    <div class="bg-white rounded-2xl p-6 text-center shadow-lg">
-                                        <i class="fas fa-graduation-cap text-4xl text-pink-700 mb-3"></i>
-                                        <h4 class="font-fredoka font-semibold text-gray-800">Przyszłość</h4>
-                                        <p class="text-sm text-gray-600 mt-2">Umysł będzie chłonął nowe informacje</p>
-                                    </div>
-                                    <div class="bg-white rounded-2xl p-6 text-center shadow-lg">
-                                        <i class="fas fa-gift text-4xl text-music-orange mb-3"></i>
-                                        <h4 class="font-fredoka font-semibold text-gray-800">Prezent</h4>
-                                        <p class="text-sm text-gray-600 mt-2">Najwspanialszy prezent na start życia</p>
-                                    </div>
-                                    <div class="bg-white rounded-2xl p-6 text-center shadow-lg">
-                                        <i class="fas fa-star text-4xl text-music-green mb-3"></i>
-                                        <h4 class="font-fredoka font-semibold text-gray-800">Doświadczenie</h4>
-                                        <p class="text-sm text-gray-600 mt-2">Wspaniałe doświadczenie muzyczne</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Prowadzimy liczne zajęcia dodatkowe, wspierające rozwój dzieci poprzez sztukę i aktywność ruchową, 
+                        ponieważ to właśnie dzięki zajęciom umuzykalniającym najmłodsi szybciej rozwijają się intelektualnie 
+                        i lepiej chłoną wiedzę. Dzięki urozmaiconemu programowi, każdy dzień w przedszkolu staje się nową przygodą, 
+                        a rodzicom daje pewność, że ich dzieci spędzają czas w najlepszy możliwy sposób.
+                    </p>
                 </div>
 
-                <!-- Additional Features -->
-                <div class="grid md:grid-cols-3 gap-8 mt-16">
-                    <div class="bg-gradient-to-br from-blue-200 to-sky-300 rounded-3xl p-8 text-center shadow-xl border-2 border-blue-300/30">
-                        <div class="w-20 h-20 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-                            <i class="fas fa-home text-white text-3xl"></i>
-                        </div>
-                        <h3 class="font-fredoka text-xl font-semibold text-gray-800 mb-3">Przyjazne Warunki</h3>
-                        <p class="text-gray-600">Dysponujemy dużym budynkiem z przestronnymi salami zabaw oraz ogromnym ogrodzonym placem zabaw.</p>
-                    </div>
-                    
-                    <div class="bg-gradient-to-br from-green-200 to-emerald-300 rounded-3xl p-8 text-center shadow-xl border-2 border-green-300/30">
-                        <div class="w-20 h-20 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-                            <i class="fas fa-utensils text-white text-3xl"></i>
-                        </div>
-                        <h3 class="font-fredoka text-xl font-semibold text-gray-800 mb-3">Własna Kuchnia</h3>
-                        <p class="text-gray-600">Posiłki przygotowujemy na miejscu, świeże i pyszne, dostosowane do potrzeb najmłodszych.</p>
-                    </div>
-                    
-                    <div class="bg-gradient-to-br from-purple-200 to-pink-300 rounded-3xl p-8 text-center shadow-xl border-2 border-purple-300/30">
-                        <div class="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
-                            <i class="fas fa-language text-white text-3xl"></i>
-                        </div>
-                        <h3 class="font-fredoka text-xl font-semibold text-gray-800 mb-3">Angielski śpiewająco</h3>
-                        <p class="text-gray-600">Nie ma nic przyjemniejszego niż nauka języka poprzez śpiewanie piosenek.</p>
-                    </div>
-                </div>
 
-                <!-- Life Skills Section -->
-                <div class="mt-16 bg-gradient-to-r from-orange-200 via-yellow-100 to-green-200 rounded-3xl p-12 shadow-xl border-2 border-orange-300/30">
-                    <h3 class="font-fredoka text-2xl font-bold text-center text-gray-800 mb-8">
-                        <i class="fas fa-heart text-red-600 mr-3"></i>
-                        Umiejętności Przydatne na Całe Życie
-                    </h3>
-                    <div class="max-w-3xl mx-auto text-center">
-                        <p class="text-lg text-gray-700 leading-relaxed">
-                            Kształtujemy w przedszkolakach prawidłowe nawyki, takie jak poranne gimnastykowanie się czy dbanie o zdrowe odżywianie. 
-                            Uczymy przez zabawę, rozwijamy pasje i talenty, budujemy pewność siebie i radość życia.
+
+                <!-- Live Music Experience -->
+                <div class="bg-gradient-to-r from-music-orange/10 to-music-yellow/10 rounded-3xl p-12 mb-16">
+                    <div class="text-center">
+                        <h3 class="font-fredoka text-2xl font-bold text-gray-800 mb-6">
+                            <i class="fas fa-headphones text-orange-700 mr-3"></i>
+                            Żywy Kontakt z Muzyką
+                        </h3>
+                        <p class="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+                            Wiele przykładów – ponieważ to właśnie żywy kontakt z muzyką jest najważniejszy. 
+                            Dzieci przed odsłuchaniem każdego utworu zostają odpowiednio przygotowane. 
+                            Pokazujemy, że każda kompozycja opowiada pewną historię – a dźwięki zastępują słowa. 
+                            W ten sposób rozwijamy wyobraźnię muzyczną już od najmłodszych lat.
                         </p>
+                    </div>
+                </div>
+
+                <!-- Classes Offered -->
+                <div class="mb-16">
+                    <h3 class="font-fredoka text-3xl font-bold text-center text-gray-800 mb-12">
+                        Dla Każdego Coś Odpowiedniego
+                    </h3>
+                    
+                    <!-- Included Classes -->
+                    <div class="mb-12">
+                        <h4 class="font-fredoka text-xl font-semibold text-gray-800 mb-6 flex items-center">
+                            <i class="fas fa-gift text-green-700 mr-3"></i>
+                            W Ramach Opłaty Dziennej:
+                        </h4>
+                        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div class="bg-white border-2 border-music-green/30 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-keyboard text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800 mb-2">Grupowe Zabawy Klawiszowe</h5>
+                                        <p class="text-sm text-gray-600">Każde dziecko ma swój keyboard</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white border-2 border-music-green/30 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 bg-pink-600 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-person-running text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800 mb-2">Taniec</h5>
+                                        <p class="text-sm text-gray-600">Rozwój ruchowy i rytmiczny</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white border-2 border-music-green/30 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 bg-music-orange rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-ear-listen text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800 mb-2">Kształcenie Słuchu</h5>
+                                        <p class="text-sm text-gray-600">Wprowadzenie do nauki solfeżu</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white border-2 border-music-green/30 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 bg-music-blue rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-language text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800 mb-2">Język Angielski</h5>
+                                        <p class="text-sm text-gray-600">Codzienna nauka języka</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white border-2 border-music-green/30 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 bg-music-green rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-futbol text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800 mb-2">Zajęcia Sportowe</h5>
+                                        <p class="text-sm text-gray-600">Aktywność fizyczna</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bg-white border-2 border-music-green/30 rounded-2xl p-6 hover:shadow-lg transition-shadow">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 bg-music-red rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-brain text-white"></i>
+                                    </div>
+                                    <div>
+                                        <h5 class="font-semibold text-gray-800 mb-2">Psycholog Przedszkolny</h5>
+                                        <p class="text-sm text-gray-600">Wsparcie rozwoju emocjonalnego</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional Paid Classes -->
+                    <div>
+                        <h4 class="font-fredoka text-xl font-semibold text-gray-800 mb-6 flex items-center">
+                            <i class="fas fa-star text-music-yellow mr-3"></i>
+                            Zajęcia Dodatkowo Płatne:
+                        </h4>
+                        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow">
+                                <i class="fas fa-yin-yang text-4xl text-purple-600 mb-3"></i>
+                                <h5 class="font-semibold text-gray-800 mb-2">Aikido</h5>
+                                <p class="text-sm text-gray-600">Sztuka walki i samodyscyplina</p>
+                            </div>
+                            
+                            <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow">
+                                <i class="fas fa-robot text-4xl text-blue-600 mb-3"></i>
+                                <h5 class="font-semibold text-gray-800 mb-2">STEM Kids</h5>
+                                <p class="text-sm text-gray-600">Science, Technology, Engineering, Math</p>
+                            </div>
+                            
+                            <div class="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow">
+                                <i class="fas fa-chess text-4xl text-orange-600 mb-3"></i>
+                                <h5 class="font-semibold text-gray-800 mb-2">Szachy</h5>
+                                <p class="text-sm text-gray-600">Rozwój logicznego myślenia</p>
+                            </div>
+                            
+                            <div class="bg-gradient-to-br from-pink-50 to-pink-100 rounded-2xl p-6 text-center hover:shadow-lg transition-shadow">
+                                <span class="text-4xl mb-3 block">🎹</span>
+                                <h5 class="font-semibold text-gray-800 mb-2">Indywidualne Lekcje</h5>
+                                <p class="text-sm text-gray-600">Keyboard/Pianino</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
